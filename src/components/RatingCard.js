@@ -21,11 +21,11 @@ function RatingCard({ submitRating }) {
   }
 
   return (
-    <div className="card">
+    <main className="card">
       <img className={styles.star} src="../images/icon-star.svg" alt="star"></img>
-      <p className={styles.title}>
+      <h1 className={styles.title}>
         How did we do?
-      </p>
+      </h1>
       <p className={styles.description}>
         Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
       </p>
@@ -33,7 +33,7 @@ function RatingCard({ submitRating }) {
         {ratingList}
       </div>
       <button onClick={handleSubmit} className={styles.submit}>SUBMIT</button>
-    </div>
+    </main>
   );
 }
 

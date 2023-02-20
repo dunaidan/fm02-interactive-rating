@@ -11,8 +11,8 @@ body {
 .card {
   background-color: hsl(215, 20%, 16%);
   max-width: 320px;
-  padding: 25px;
-  border-radius: 20px;
+  padding: 1.56em;
+  border-radius: 1.25em;
 }
 
 
