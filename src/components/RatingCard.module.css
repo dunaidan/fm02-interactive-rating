@@ -1,0 +1,44 @@
+.star {
+  border: 3px solid hsl(210, 20%, 18%);
+  background-color: hsl(213, 19%, 18%);
+  padding: 13px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+.title {
+  color: hsl(0, 0%, 100%);
+  font-size: 20px;
+}
+
+.description {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.ratingNumbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.submit {
+  margin-top: 20px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 12px;
+  width: 100%;
+  padding: 10px 0px;
+  border-radius: 20px;
+  border: none;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+}

@@ -1,0 +1,26 @@
+button {
+  font-weight: 700;
+  padding: 8px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+
+.ratingButton {
+  border: 3px solid hsl(210, 20%, 18%);
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(217, 12%, 63%);
+  
+}
+
+.ratingButtonActive {
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+}
+
+.ratingButton:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+}
